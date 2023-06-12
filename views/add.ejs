@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+
+<body>
+    <form action="" method="post">
+        <h1>Add Data</h1>
+        <div class="row">
+            <div class="col-25">
+                <label for="string">String</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="string" name="String" placeholder="String">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="integer">Integer</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="integer" name="Integer" placeholder="Integer">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="float">Float</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="float" name="Float" step="any" placeholder="Float">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="date">Date</label>
+            </div>
+            <div class="col-75">
+                <input  type="date" id="date" name="Date" placeholder="end date">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="boolean">Boolean</label>
+            </div>
+            <div class="col-75">
+                <select style="background-color: white;" id="boolean" name="Boolean">
+                    <option value="">Choose the boolean...</option>
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <button type="submit" class="add">Save</button>
+    </form>
+</body>
+
+</html>
